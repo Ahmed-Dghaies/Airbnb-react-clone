@@ -15,6 +15,10 @@
     margin-left: 20px;
 }
 
+.avatar {
+    cursor: pointer;
+}
+
 .header_center {
     display: flex;
     align-items: center;
@@ -39,6 +43,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 15vw;
+    width: 20vw;
     margin-right: 80px;
+}
+
+.text, .language_icons {
+    padding: 10px 10px 5px 10px;
+    height: 30px;
+    border-radius: 40px;
+    margin-top: 5px;
+}
+
+.text:hover, .language_icons:hover {
+    background-color:#e0e0e0;
+    cursor: pointer;
 }
