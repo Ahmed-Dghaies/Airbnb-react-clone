@@ -1,0 +1,28 @@
+.home_section {
+    display: flex;
+    padding: 30px;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.home > h2 {
+    margin-left: 120px;
+}
+
+.section_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.seeMore {
+    display: flex;
+    align-items: center;
+}
+
+.seeMore:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

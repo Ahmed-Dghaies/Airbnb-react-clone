@@ -1,5 +1,5 @@
 import React from 'react';
-import './searchResult.css';
+import './../assets/css/searchResult.css';
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import StarIcon from "@material-ui/icons/Star";
 
