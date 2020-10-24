@@ -2,9 +2,9 @@ import React from 'react';
 import "./../assets/css/bookedCard.css";
 import StarIcon from "@material-ui/icons/Star";
 
-function BookedCard({src, price, description, star}) {
+function BookedCard({src, price, description, star, className}) {
     return (
-        <div className="card">
+        <div className='card'>
             <img src={src} alt="" />
             <div className="card_info">
                 <h2>{price}</h2>

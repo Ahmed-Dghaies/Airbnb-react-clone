@@ -2,47 +2,58 @@
     position: absolute;
     top: 35px;
     left: 25%;
-    width: 100vw;
+    box-shadow: 5px 5px 10px lightgray;
 }
 
-.search > h2 {
+.guests > h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 559px;
     padding: 10px;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    top: 380px
+    margin-block-end: 0px !important;
+    margin-block-start: 0px !important;
 }
 
-.search > input {
+.guests > .input_wrapper > input {
     width: 539px;
-    padding: 20px;
-    position: absolute;
-    left: 0;
+    padding: 10px;
     height: 30px;
-    top: 420px;
     border: none;
 }
 
-.search > input:focus {
+.guests > .input_wrapper > input:focus {
     outline-width: 0;
 }
 
+.input_wrapper {
+    border-radius: 4px;
+    margin: 10px;
+    border: 1px solid lightgray !important;
+    overflow: hidden;
+}
 
-.search > button {
-    position: absolute;
-    left: 0;
-    top: 480px;
+.guests > button {
     text-transform: inherit !important;
     background-color: #ff7779;
     color: white;
-    width: 579px;
+    width: 96%;
+    margin-left: 2%;
+    margin-bottom: 8px;
+    border-radius: 4px;
   }
 
-.search > button:hover {
+.guests > button:hover {
     background-color: white;
     color: #ff7779;
+}
+
+.guests {
+    position: absolute;
+    top: 350px;
+    z-index: 1000;
+    background-color: white;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 5px 5px 10px lightgray;
+    width: 100%;
 }

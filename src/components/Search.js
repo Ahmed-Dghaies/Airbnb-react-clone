@@ -26,9 +26,13 @@ function Search() {
     return (
         <div className='search'>
             <DateRangePicker ranges={[selectionRange]} onChange={handleSelect} />
-            <h2>Number of guests <PeopleIcon /></h2>
-            <input min={0} defaultValue={2} type="number" />
-            <Button onClick={() => history.push('/search')}> Search Airbnb </Button>
+            <div className='guests'>
+                <h2>Number of guests <PeopleIcon /></h2>
+                <div className='input_wrapper'>
+                    <input min={0} defaultValue={2} type="number" />
+                </div>
+                <Button onClick={() => history.push('/search')}> Search Airbnb </Button>
+            </div>
         </div>
     )
 }

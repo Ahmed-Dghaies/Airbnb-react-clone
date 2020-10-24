@@ -6,6 +6,7 @@
     top: 0;
     background-color: white;
     z-index: 100;
+    height: 70px;
     width: 100%;
 }
 
@@ -25,8 +26,8 @@
     flex: 1;
     max-width: fit-content;
     padding: 10px;
-    height: 30px;
-    border: 1px solid lightgray;
+    height: 30px !important;
+    border: 1px solid lightgray !important;
     border-radius: 999px;
 }
 
